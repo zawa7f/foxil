@@ -1,0 +1,12 @@
+[
+    {
+        "code": "abc123",
+        "description": "Print code",
+        "url": "http://example.com/print"
+    },
+    {
+        "code": "xyz789",
+        "description": "Alert code",
+        "url": "http://example.com/alert"
+    }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Admin Page</h1>
+    <div>
+        <h2>Add New Code</h2>
+        <form id="add-code-form">
+            <label for="code">Code:</label>
+            <input type="text" id="code" name="code" required>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required>
+            <button type="submit">Add Code</button>
+        </form>
+    </div>
+    <div>
+        <h2>Edit Code</h2>
+        <form id="edit-code-form">
+            <label for="old-code">Old Code:</label>
+            <input type="text" id="old-code" name="old-code" required readonly>
+            <label for="new-code">New Code:</label>
+            <input type="text" id="new-code" name="new-code" required>
+            <label for="new-description">New Description:</label>
+            <input type="text" id="new-description" name="new-description" required>
+            <button type="submit">Edit Code</button>
+        </form>
+    </div>
+    <div>
+        <h2>Available Codes</h2>
+        <ul id="codes-list"></ul>
+    </div>
+</body>
+</html>
